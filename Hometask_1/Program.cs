@@ -10,8 +10,7 @@ void CountPosNum()
     {
         Console.WriteLine("Enter 'q' to stop");
         Console.Write("Enter any number: ");
-        number = Console.ReadLine();
-        int num = int.Parse(number);
+        int num = int.Parse(Console.ReadLine());
         if (num > 0) i++;
         Console.WriteLine($"You entered {i} positive numbers");
     }
